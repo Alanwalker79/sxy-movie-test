@@ -11,8 +11,8 @@ require('dotenv').config()
 const port = 3000;
 
 //Links
-let urdomain = `${process.env.YOUR_DOMAIN_WITH_HTTP}`;
-let urdomain1 = `${process.env.YOUR_DOMAIN_WITH_HTTPS}`;
+let urdomain = `http://sxy-movie-test.vercel.app`;
+let urdomain1 = `https://sxy-movie-test.vercel.app`;
 let domain = `https://vidcloud.uno`;
 
 // 🛣️ Routes
