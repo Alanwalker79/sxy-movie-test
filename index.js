@@ -8,7 +8,7 @@ const app = express()
 require('dotenv').config()
 
 // 🧰 Utils
-const port = process.env.PORT || 3000;
+const port = 3000;
 
 //Links
 let urdomain = `${process.env.YOUR_DOMAIN_WITH_HTTP}`;
